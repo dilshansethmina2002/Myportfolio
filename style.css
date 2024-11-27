@@ -321,13 +321,36 @@ button::before {
   animation: bubbles 5s linear infinite both;
 }
 
-@keyframes bubbles {
-  from {
-    transform: translate();
-  }
-  to {
-    transform: translate(0, -66.666%);
-  }
+.aboutTitle{
+  position: absolute;
+  width: 80%;
+  top: -70%;
+  left:10%;
+  margin-bottom: 20px;
+  color: #E9EBF8;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+  border: #A5A299 3px solid;
+  border-radius: 20px;
+}
+
+
+.skillTitle{
+  position: absolute;
+  width: 125%;
+  top: -20px;
+  left: 0%;
+  margin-bottom: 20px;
+  color: #E9EBF8;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+  border: #A5A299 3px solid;
+  border-radius: 20px;
+
 }
 
 .mySkills{
@@ -340,20 +363,14 @@ button::before {
 
 }
 
-.skills{
-  width: 100%;
-  color: #E9EBF8;
-  font-size: 100px;
-  align-items: center;
-}
 
 .wrapper {
   position: absolute;
   top: 10%;
   left: 40%;
-  width: 300px;
+  width: 45%;
   height: 500px;
-  perspective: 900px;
+  perspective: none;
 }
 
 .flutter{
@@ -390,7 +407,7 @@ button::before {
   transition: .5s all ease;
   transform: rotateX(30deg) scale(0.7);
   perspective: 900px;
-  box-shadow: 0px 20px 50px #555;
+  box-shadow: 0px 5px 5px #555;
   animation: entry 1s linear 1;
 }
 
@@ -399,27 +416,24 @@ button::before {
   top: 0%;
   background: linear-gradient(to bottom, #eba65b 30%, #d99267 100%);
   z-index: 300;
-  box-shadow: 0px 20px 100px #555;
 }
 
 #c1 {
   background: linear-gradient(to bottom, #59476f 20%, #7b88d1 100%);
-  box-shadow: 0px 20px 100px #555;
-  left: 150%;
+  left: 120%;
   z-index: 0;
 }
 
 #c2 {
-  left: -150%;
+  left: -120%;
   z-index: 0;
   background: linear-gradient(to bottom, #59476f 30%, #7b88d1 100%);
-  box-shadow: 0px 20px 100px #555;
 }
 
 .container:hover {
   cursor: pointer;
-  transform: rotate(0deg) scale(1) translateY(10px);
-  transition: .5s all ease;
+  transform: rotate(0deg) scale(0.8) translateY(10px);
+  transition: 0.5s all ease;
   z-index: 400;
 }
 
@@ -482,59 +496,37 @@ h3{
   margin-left: 80px;
 }
 
-.TitleSkill {
-
-  top: 10%;
-  cursor: pointer;
-  position: relative;
-  margin-left: 200px;
-
-  h1 {
-    font-family: 'Times New Roman', Times, serif;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    font-size: 70px;
-  }
-
-}
 
 
   
 .divabout{
   position: absolute;
-  height: 10%;
+  height: 50%;
   width: 85%;
-  bottom: -50%;
+  bottom: -100%;
   left: 10%;
   margin-bottom: 20px;
 }
 
-.aboutTitle{
-  color: #E9EBF8;
-  left: 50%;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 50px;
-  padding: 10px;
-  
-}
 
 .about{
   color: #A5A299;
-  padding: 20px;
   padding-bottom: 100px;
 }
 
 .edutile{
+  width: 80%;
   position: absolute;
   top: -180%;
-  left: 280px;
+  left: 0%;
   margin-bottom: 20px;
   color: #E9EBF8;
   font-family: 'Times New Roman', Times, serif;
   font-size: 50px;
+  text-align: center;
   padding: 10px;
+  border: #A5A299 3px solid;
+  border-radius: 20px;
 }
 
 .edu{
@@ -598,25 +590,25 @@ h3{
 
 .uni-img{
   position: relative;
-  height: 280px;
-  width: 400px;
-  top: -55%;
+  height: 80%;
+  width: 45%;
+  top: -50%;
   left: 50%;
   border-radius: 20px;
 }
 .richmond-img{
   position: relative;
-  height: 280px;
-  width: 400px;
-  top: -62%;
+  height: 80%;
+  width: 45%;
+  top: -55%;
   left: 50%;
   border-radius: 20px;
 }
 .ananda-img{
   position: relative;
-  height: 280px;
-  width: 400px;
-  top: -93%;
+  height: 80%;
+  width: 45%;
+  top: -88%;
   left: 50%;
   border-radius: 20px;
 }
