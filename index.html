@@ -10,34 +10,42 @@
 <body>
   <div class="hero" id="Home">
     <nav>
-      <span class="top">Dilshan Sethmina</span>
+      <span class="top">
+        <img src="Other/logo.webp" alt="" class="logo">
+      </span>
       <ul class="ullist">
         <li><a href="#Home" class="link"><span class="mask"><div class="link-container"><span class="link-title1 titleNav">Home</span><span class="link-title2 titleNav">Home </span></div></span></a></li>
         <li><a href="#About" class="link" ><span class="mask"><div class="link-container"><span class="link-title1 titleNav">About</span><span class="link-title2 titleNav">About</span></div></span></a></li>
-        <li><a href="#Education" class="link"><span class="mask"><div class="link-container"><span class="link-title1 titleNav">Education</span><span class="link-title2 titleNav">Education</span></div></span></a></li>
         <li><a href="#skills" class="link" ><span class="mask"><div class="link-container"><span class="link-title1 titleNav">Skills</span><span class="link-title2 titleNav">Skills</span></div></span></a></li>
-        <li><a href="#Experience" class="link"><span class="mask"><div class="link-container"><span class="link-title1 titleNav">Experience</span><span class="link-title2 titleNav">Experience</span></div></span></a></li>
-        <li><a href="Projects" class="link"><span class="mask"><div class="link-container"><span class="link-title1 titleNav">Projects</span><span class="link-title2 titleNav">Projects</span></div></span></a></li>
+        <li><a href="#Education" class="link"><span class="mask"><div class="link-container"><span class="link-title1 titleNav">Education</span><span class="link-title2 titleNav">Education</span></div></span></a></li>
+       <li><a href="#project" class="link"><span class="mask"><div class="link-container"><span class="link-title1 titleNav">Projects</span><span class="link-title2 titleNav">Projects</span></div></span></a></li>
       </ul>
     </nav>
-
-    <video autoplay muted loop id="myVideo" class="background-video">
+    <script>
+       window.onbeforeunload = () => window.scrollTo(0, 0);
+    </script>
+    <!-- <video autoplay muted loop id="myVideo" class="background-video">
       <source src="Other/4k.mp4" type="video/mp4">
-    </video>
+    </video> -->
     
+    <img src="Other/background.webp" alt="" class="background-img">
 
     <div class="myImage">
       <!-- <img src="Other/graph.png" class="shape"> -->
-      <img src="Other/mypic.png" class="dilshan">
+      <img src="Other/mypic2.png" class="dilshan">
     </div>
 <div class="hi">
       <li class="li1">HI,</li>
-      <li class="li2">I'm <span class="seth">SETHMINA</span></li>
+      <li class="li2">I'm
+        <div class="wrapper2">
+            SETHMINA
+        </div>
+        
       <li class="li3">Software Developer</li>
   
       <button style="--content: 'Download CV'" class="btn">
         <div class="left"></div>
-          Download CV
+          <a href="Other/cv.webp">Download CV</a>
         <div class="right"></div>
       </button>
 </div>
@@ -61,9 +69,23 @@
 
   <div class="divabout" id="About">
     <h1 class="aboutTitle">About Me</h1>
-    <h2 class="about">
-      I am an undergraduate student at the Faculty of Technology, University of Sri Jayewardenepura, studying for a degree in Software Engineering. I have a strong passion for technology and enjoy learning about new advancements in the field. I am particularly interested in Flutter development, where I have gained intermediate-level skills and enjoy building cross-platform mobile applications. Exploring and improving my expertise in Flutter is a key part of my journey as a developer.
-    </h2>
+    <div class="about-img-div">
+      <img src="Other/aboutImg.webp" alt="" class="about-img">
+    </div>
+    <div class="details-about">
+      <h2 >Hi There! I'm Dilshan Sethmina</h2><br>
+      <h3 >
+        I am an undergraduate student at the Faculty of Technology, University of Sri Jayewardenepura, studying for a degree in Software Engineering.
+      </h3><br>
+
+      <ul class="ul-about">
+        <li><span>Birthday</span> : <span>July 04, 2002</span></li>
+        <li><span>Phone</span> : <span>+94 761287292</span></li>
+        <li><span>Email</span> : <span>sethminadilshan@gmail.com</span></li>
+        <li><span>From</span> : <span>Sri Lanka</span></li>
+        <li><span>Language</span> : <span>English and Sinhala </span></li>
+      </ul>
+    </div>
   </div>
 
 
@@ -101,17 +123,81 @@
             <div class="image" id="i2">
               <div class="city">
               <?xml version="1.0" encoding="utf-8"?>
-              <img src="Other/pngwing.com.png" alt="" class="flutter">
+              <img src="Other/pngwin.png" alt="" class="flutter">
 
               </div>
             </div>
             <div class="story" id="s2">
               <h3>Flutter Development</h3>
-              <p class="para"> As a Flutter developer, I am exploring the world of cross-platform app development using Flutter. I am learning to build visually appealing and responsive applications with a single codebase, leveraging the power of Dart programming. My focus is on mastering core concepts, such as widget design, state management, and Flutter's hot-reload feature, to create efficient and user-friendly apps. With a passion for learning, I am steadily growing my skills and understanding of this versatile framework.</p>
+              <p class="para"> As a Flutter developer, I am exploring the world of cross-platform app development using Flutter. I am learning to build visually appealing and responsive applications with a single codebase. My focus is on mastering core concepts, such as widget design, state management, and Flutter's hot-reload feature, to create efficient and user-friendly apps. With a passion for learning, I am steadily growing my skills and understanding of this versatile framework.</p>
 
             </div>
 	        </div>
         </div>
+        
+        <div class="skil_section">
+          <div class="skil-image">
+              <img src="Other/skillLOgo.webp" alt="Skill Image">
+          </div>
+          <div class="skil-content">
+              
+              <div class="skil">
+                  <div class="skil-name">HTML</div>
+                  <div class="skil-bar">
+                      <div class="skil-presentage" style="width: 90%;"></div>
+                  </div>
+                  <b>90%</b>
+              </div>
+      
+              <div class="skil">
+                  <div class="skil-name"><br>CSS</div>
+                  <div class="skil-bar">
+                      <div class="skil-presentage" style="width: 85%;"></div>
+                  </div>
+                  <span><b>85%</b></span>
+              </div>
+      
+              <div class="skil">
+                  <div class="skil-name"><br>Java</div>
+                  <div class="skil-bar">
+                      <div class="skil-presentage" style="width: 85%;"></div>
+                  </div>
+                  <span><b>85%</b></span>
+              </div>
+      
+              <div class="skil">
+                  <div class="skil-name"><br>C</div>
+                  <div class="skil-bar">
+                      <div class="skil-presentage" style="width: 85%;"></div>
+                  </div>
+                  <span><b>85%</b></span>
+              </div>
+      
+              <div class="skil">
+                  <div class="skil-name"><br>C#</div>
+                  <div class="skil-bar">
+                      <div class="skil-presentage" style="width: 78%;"></div>
+                  </div>
+                  <span><b>78%</b></span>
+              </div> 
+              <div class="skil">
+                <div class="skil-name"><br>JS</div>
+                <div class="skil-bar">
+                    <div class="skil-presentage" style="width: 70%;"></div>
+                </div>
+                <span><b>70%</b></span>
+            </div> 
+
+            <div class="skil">
+              <div class="skil-name"><br>Dart</div>
+              <div class="skil-bar">
+                  <div class="skil-presentage" style="width: 75%;"></div>
+              </div>
+              <span><b>75%</b></span>
+          </div> 
+          </div>
+      </div>
+        </div>
       </div>
 
 
@@ -122,7 +208,7 @@
           <h3>Bachelor of Information and Communication Technology</h3><br><br><br><br><br><br>
           <p>University of Sri Jayewardenepura <br>
           (2023 - Present) </p>
-          <img src="Other/uni.jpg" alt="" class="uni-img">
+          <img src="Other/uni.webp" alt="" class="uni-img">
         </div>
         <div class="education-item">
           <h3>G.C.E.(A/L)</h3>
@@ -133,7 +219,7 @@
           Science for Technology = A <br>
           Information Communication Technology = A
           </h4>
-          <img src="Other/Richmond.jpg" alt="" class="richmond-img">
+          <img src="Other/Richmond.webp" alt="" class="richmond-img">
         </div>
 
         <div class="education-item">
@@ -151,17 +237,76 @@
             Business & Accounting Studies : A <br>
             Drama : B 
           </h4>
-          <img src="Other/ananda.jpg" alt="" class="ananda-img">
+          <img src="Other/ananda.webp" alt="" class="ananda-img">
         </div>
       </div>
 
-    <div class="Experience">
-      <h1 class="exp">Experience</h1>
+  
+    <div class="Projects" id="project">
+      <h1 class="project-title">Projects</h1>
+      <section class="slider_container">
+        <section class="slider">
+          <div class="slide one">
+            <img src="Other/slideMain.webp" alt="" />
+          </div>
+          <div class="slide two">
+            <img src="Other/slide1.webp" alt="" />
+          </div>
+          <div class="slide three">
+            <img src="Other/slide2.webp" alt="" />
+          </div>
+          <div class="slide four">
+            <img src="Other/slide3.webp" alt="" />
+          </div>
+        </section>
+      </section>
+
+      <div class="project-des">
+        <h1 class="des-title">SETHRO PHARMA</h1><br>
+        <h2 class="des-info">Sethro Pharmacy is a pharmacy management system designed to enhance the operations of a pharmacy.</h2>
+        
+        <button style="--content: " class="btn-project" >
+          <div class="left"></div>
+            <a href="https://github.com/dilshansethmina2002/Sethro_Pharmacy-.git" class="project-btn">View in github</a>
+          <div class="right"></div>
+        </button>
+      </div>
     </div>
 
-    <div class="Projects">
-      <h1 class="pro">Projects</h1>
-    </div>
+    <footer class="footer">
+
+      <div class="footer-box">
+          <div class="contact-me">
+              <p></p>
+              
+          </div>
+          <div class="footer-contact">
+            <div class="footer-contact-p">
+              <h3>Contact</h3>  
+              <p><i class="fas fa-map-marker-alt"></i> Waththahena,Thalgaswala.</p>
+              <p><i class="fas fa-phone-alt"></i> +94 761287292</p>
+              <p><i class="fas fa-envelope"></i> sethminadilshan@gmail.com</p>
+            </div>
+              
+          </div>
+          <div class="social-media">
+              <h3>Social Media</h3>
+              <div class="icon-section">
+                  <a href="www.linkedin.com/in/dilshan-sethmina-kolambaarachchi-814a2231b"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="https://www.facebook.com/dilshansethmia/"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://wa.me/+94761287292 "><i class="fa-brands fa-whatsapp"></i></a>
+                  <a href=""><i class="fa-brands fa-youtube"></i></a>
+              </div>
+              
+          </div>
+      </div>
+
+      <div class="footer-end">
+          <p>© 2024. All Rights Reserved </p>
+          <p>Concept and Design by Dilshan Sethmina</p>
+      </div>
+
+</footer>
 
   
 </body>
