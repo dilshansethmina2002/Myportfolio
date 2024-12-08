@@ -19,7 +19,6 @@ body {
   font-family: "Quicksand", sans-serif;
   width: 100%;
   height: 100vh;
-  display: flex;
   justify-content: center;
   align-items: center;
   overflow: auto;
@@ -116,16 +115,16 @@ nav ul li {
 }
 
 .myImage {
-  position: absolute;
-  width: 45%;
-  height: 80%;
+  position: relative;
+  left: 60%;
+  top: 100%;
+  width: 30%;
   bottom: 0;
-  right: -2%;
 }
 
 .myImage img {
-  height: 100%;
   position: absolute;
+  width: 100%;
   left: 50%;
   bottom: 0;
   transform: translateX(-40%);
@@ -148,10 +147,9 @@ nav ul li {
 }
 
 .hi{
-  position: absolute;
-  width: 40%;
-  height: 40%;
-  bottom: 40%;
+  position: relative;
+  width: 60%;
+  top: 15%;
   left: 10%;
 }
 
@@ -160,12 +158,10 @@ nav ul li {
 }
 
 .wrapper2 {
-  height: 10vh;
+  position: relative;
   display: grid;
   place-items: center;
-  position: relative;
-  bottom: 58px;
-  width: 10ch;
+  bottom: 60px;
   color: #a25a62;
   animation: typing 2s steps(22) infinite, blink 0.5s step-end infinite alternate;
   white-space: nowrap;
@@ -195,13 +191,14 @@ nav ul li {
   font-weight: bolder;
   font-size: 80px;
   color: #A5A299;
+  width: 50%;
 }
 
 .li2{
   font-weight: bolder;
   font-size: 60px;
   color: #A5A299;
-  height: 80px;
+  width: 50%;
 }
 
 
@@ -209,6 +206,7 @@ nav ul li {
   font-weight: bolder;
   font-size: 60px;
   color: #A5A299;
+  width: 100%;
 }
 
 
@@ -1050,21 +1048,4 @@ h3{
 .footer-contact-p{
   font-size: 14px;
   padding-top: 5px;
-}
-
-
- 
-@media only screen and (max-width:960px){
-  .footer-box div{
-      width: 100%;
-  }
-  
-  .footer-box h3{
-      text-align: center;
-  }
-
-  .icon-section{
-      text-align: center;
-  }
-
 }
