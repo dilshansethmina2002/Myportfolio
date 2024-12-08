@@ -12,6 +12,7 @@ html{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body {
@@ -46,7 +47,6 @@ nav {
 }
 
 nav .top {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bolder;
   color: #E9EBF8 ;
   font-size: 40px;
@@ -171,7 +171,6 @@ nav ul li {
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 50px;
   left: 100px;
 }
@@ -193,14 +192,12 @@ nav ul li {
 
 
 .li1{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bolder;
   font-size: 80px;
   color: #A5A299;
 }
 
 .li2{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bolder;
   font-size: 60px;
   color: #A5A299;
@@ -209,7 +206,6 @@ nav ul li {
 
 
 .li3{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bolder;
   font-size: 60px;
   color: #A5A299;
@@ -286,8 +282,6 @@ button {
   border: none;
   background: none;
   cursor: pointer;
-
-  font-family : "Source Code Pro";
   font-weight: 900;
   text-transform: uppercase;
   font-size: 30px;
@@ -386,7 +380,6 @@ button::before {
   left:18%;
   margin-bottom: 20px;
   color: #E9EBF8;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 50px;
   text-align: center;
   padding: 10px;
@@ -412,7 +405,6 @@ button::before {
 
 .ul-about{
   position: relative;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #A5A299;
   list-style: disc;
   left: 20%;
@@ -420,7 +412,6 @@ button::before {
 
 .divabout h2{
   color: #37a6c2;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .details-about{
   position: relative;
@@ -442,7 +433,6 @@ button::before {
   position: relative;
   right: 10%;
   color: #f1efea;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: medium;
 }
 
@@ -453,7 +443,6 @@ button::before {
   left: 0%;
   margin-bottom: 20px;
   color: #E9EBF8;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 50px;
   text-align: center;
   padding: 10px;
@@ -684,7 +673,6 @@ b{
 
 .para{
   margin: 20px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: large;
   line-height: 25px;
 }
@@ -710,7 +698,6 @@ h3{
   left: 0%;
   margin-bottom: 20px;
   color: #E9EBF8;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 50px;
   text-align: center;
   padding: 10px;
@@ -720,7 +707,6 @@ h3{
 
 .edu{
   color: #A5A299;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 20px;
   padding-bottom: 100px;
   
@@ -730,7 +716,6 @@ h3{
 
 
 .education-section h2 {
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
   color: #333;
   margin-bottom: 20px;
@@ -750,7 +735,6 @@ h3{
 
 .education-item h3 {
   position: relative;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #60cfdb;
   left: 10%;
   margin-bottom: 5px;
@@ -759,7 +743,6 @@ h3{
 .education-item p {
   position: relative;
   left: 5%;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #ffffff;
   margin-bottom: 8px;
   font-size: 18px;
@@ -767,7 +750,6 @@ h3{
   font-weight: bold;
 }
 .education-item h4{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #ffffff;
   font-size: 20px;
   font-weight: normal;
@@ -846,7 +828,6 @@ h3{
 
 .pro{
   color: #A5A299;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 20px;
   padding-bottom: 100px;
   
@@ -874,7 +855,6 @@ h3{
   left: 0%;
   margin-bottom: 20px;
   color: #E9EBF8;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 50px;
   text-align: center;
   padding: 10px;
@@ -957,7 +937,6 @@ h3{
 .des-title{
   position: relative;
   color: #A5A299;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   left: 50px;
   
 }
@@ -965,7 +944,6 @@ h3{
 .des-info{
   position: relative;
   color: #7b7b7b;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
   text-align: justify;
 }
@@ -979,7 +957,6 @@ h3{
 .project-btn{
   text-decoration: none;
   font-size: 25px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
